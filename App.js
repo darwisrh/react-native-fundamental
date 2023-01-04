@@ -1,10 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
+// Component
+import Header from './src/components/header';
+
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Header />
+      <Text>Wassup Bruv</Text>
+      <Text>Everybody</Text>
+      <Text>Come take my hand</Text>
+      <Text>We walk this together</Text>
       <StatusBar style="auto" />
     </View>
   );
